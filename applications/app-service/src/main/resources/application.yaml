@@ -1,0 +1,22 @@
+##Spring Configuration
+server:
+  port: 8081
+spring:
+  application:
+    name: queries
+  devtools:
+    add-properties: false
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  profiles:
+    include:
+  rabbitmq:
+    host: chimpanzee.rmq.cloudamqp.com
+    password: TwvM99SI7FWfsnsC1VXZds9G-yL8DtgS
+    username: ondiqfmh
+    virtual_host: ondiqfmh
+  data:
+    mongodb:
+      uri: "mongodb+srv://admin:ZUZ0Yetli6U2RBnO@cluster0.ysm0y.mongodb.net/queries?retryWrites=true&w=majority"
